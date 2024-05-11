@@ -15,6 +15,7 @@ jobs:
         uses: actions/setup-java@v2
         with:
           java-version: 1.8
+          distribution: 'adopt'
       - name: Step 4 - Log build tool versions
         run: |
           git --version
